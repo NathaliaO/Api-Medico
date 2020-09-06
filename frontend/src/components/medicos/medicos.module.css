@@ -1,0 +1,34 @@
+.border {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .medico {
+    min-width: 175px;
+    max-width: 130px;
+  
+    min-height: 120px;
+    margin: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  .medicoName {
+    text-align: center;
+  }
+  
